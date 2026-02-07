@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Wine, Order } from '@/lib/types'
 import { GuiaPeninBadge } from '@/components/product/GuiaPeninBadge'
 
@@ -103,9 +104,18 @@ export function RecentOrdersSidebar({ orders, recommendedWines, matchScores, onR
                 key={wine.slug}
                 className="flex items-start gap-3 bg-cream-50/3 rounded-lg p-3 border border-cream-200/5"
               >
-                <GuiaPeninBadge score={wine.guiaPenin} size="sm" />
+                <div className="relative w-8 h-12 flex-shrink-0 rounded overflow-hidden bg-cream-50/5">
+                  <Image
+                    src={wine.image}
+                    alt={wine.name}
+                    fill
+                    className="object-contain"
+                    sizes="32px"
+                  />
+                </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2">
+                    <GuiaPeninBadge score={wine.guiaPenin} size="sm" />
                     <p className="text-sm text-cream-50 font-heading truncate">
                       {wine.name}
                     </p>
