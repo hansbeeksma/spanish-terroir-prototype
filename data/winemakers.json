@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "la-rioja-alta",
+    "name": "La Rioja Alta",
+    "region": "Rioja",
+    "philosophy": "Traditie en geduld. Wij geloven dat grote wijnen tijd nodig hebben.",
+    "story": "Opgericht in 1890 in de wijk van het Barrio de la Estación in Haro, is La Rioja Alta een van de meest iconische bodega's van de Rioja. Met meer dan 130 jaar ervaring en 425 hectare wijngaarden produceren zij uitsluitend Reserva en Gran Reserva wijnen.",
+    "image": "/winemakers/la-rioja-alta.jpg",
+    "wineCount": 6,
+    "founded": 1890
+  },
+  {
+    "slug": "alvaro-palacios",
+    "name": "Álvaro Palacios",
+    "region": "Priorat",
+    "philosophy": "De wijn is een spiegel van het landschap. Wij laten de aarde spreken.",
+    "story": "Álvaro Palacios verliet zijn familiedomein in de Rioja om in 1989 naar het vergeten Priorat te trekken. Met zijn visie en vakmanschap transformeerde hij deze verwaarloosde regio tot een van de meest begeerde wijngebieden ter wereld.",
+    "image": "/winemakers/alvaro-palacios.jpg",
+    "wineCount": 4,
+    "founded": 1989
+  },
+  {
+    "slug": "do-ferreiro",
+    "name": "Do Ferreiro",
+    "region": "Rías Baixas",
+    "philosophy": "De Atlantische Oceaan is onze wijnmaker. Wij zijn slechts haar assistenten.",
+    "story": "Vijf generaties lang bewerkt de familie Méndez de Albariño-wijngaarden nabij de Galicische kust. Gerardo Méndez is de drijvende kracht die Do Ferreiro naar de top van de Rías Baixas bracht.",
+    "image": "/winemakers/do-ferreiro.jpg",
+    "wineCount": 3,
+    "founded": 1973
+  },
+  {
+    "slug": "gramona",
+    "name": "Gramona",
+    "region": "Penedès",
+    "philosophy": "Bubbels zijn geduld. Wij geven onze Cava de tijd die zij verdient.",
+    "story": "Sinds 1881 maakt de familie Gramona Cava op ambachtelijke wijze. Met rijpingsperiodes tot 10 jaar bewijzen zij dat Spaanse mousserende wijnen op het hoogste niveau kunnen concurreren.",
+    "image": "/winemakers/gramona.jpg",
+    "wineCount": 5,
+    "founded": 1881
+  },
+  {
+    "slug": "comando-g",
+    "name": "Comando G",
+    "region": "Sierra de Gredos",
+    "philosophy": "Garnacha is de koningin van Gredos. Wij zijn haar ridders.",
+    "story": "Drie jonge wijnmakers — Daniel Landi, Fernando García en Marc Isart — richtten in 2008 Comando G op met één missie: de Garnacha uit de Sierra de Gredos naar wereldniveau tillen. Met biodynamische methoden en minimale interventie creëren zij etherische, terroirgedreven wijnen.",
+    "image": "/winemakers/comando-g.jpg",
+    "wineCount": 4,
+    "founded": 2008
+  }
+]

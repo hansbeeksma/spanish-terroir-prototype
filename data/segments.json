@@ -1,0 +1,42 @@
+[
+  {
+    "id": "seg-fine-dining",
+    "name": "Fine Dining",
+    "description": "Michelin-level restaurants en haute cuisine",
+    "count": 12,
+    "avgOrderValue": 1250,
+    "avgFrequency": 2.3,
+    "topWines": ["alvaro-palacios-finca-dofi", "marques-de-murrieta-castillo-ygay-gran-reserva", "comando-g-rozas-1er-cru"],
+    "color": "#6B2D3E"
+  },
+  {
+    "id": "seg-casual",
+    "name": "Casual Dining",
+    "description": "Bistro's, brasseries en neighborhood restaurants",
+    "count": 18,
+    "avgOrderValue": 520,
+    "avgFrequency": 3.1,
+    "topWines": ["descendientes-de-j-palacios-petalos", "do-ferreiro-albarino", "ossian-verdejo-viñas-viejas"],
+    "color": "#C49A3C"
+  },
+  {
+    "id": "seg-hotel",
+    "name": "Hotels & Resorts",
+    "description": "Hotel restaurants, bars en room service",
+    "count": 6,
+    "avgOrderValue": 1800,
+    "avgFrequency": 1.8,
+    "topWines": ["cava-gramona-iii-lustros-gran-reserva", "la-rioja-alta-vina-ardanza-reserva", "marques-de-murrieta-castillo-ygay-gran-reserva"],
+    "color": "#8FB387"
+  },
+  {
+    "id": "seg-catering",
+    "name": "Catering & Events",
+    "description": "Cateraars, evenementen en recepties",
+    "count": 4,
+    "avgOrderValue": 890,
+    "avgFrequency": 1.2,
+    "topWines": ["cava-gramona-iii-lustros-gran-reserva", "do-ferreiro-albarino", "descendientes-de-j-palacios-petalos"],
+    "color": "#C75B3F"
+  }
+]

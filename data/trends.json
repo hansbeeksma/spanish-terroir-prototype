@@ -1,0 +1,104 @@
+[
+  {
+    "month": "Sep 2025",
+    "wines": {
+      "Finca Dofí": 24,
+      "Viña Ardanza": 42,
+      "Do Ferreiro": 36,
+      "Pétalos": 48,
+      "Gramona III": 18,
+      "Castillo Ygay": 12,
+      "Ossian Verdejo": 30,
+      "Rozas 1er Cru": 18,
+      "Clio": 24,
+      "La Bota Fino": 12
+    },
+    "totalRevenue": 28400,
+    "totalOrders": 18
+  },
+  {
+    "month": "Okt 2025",
+    "wines": {
+      "Finca Dofí": 30,
+      "Viña Ardanza": 48,
+      "Do Ferreiro": 24,
+      "Pétalos": 54,
+      "Gramona III": 24,
+      "Castillo Ygay": 18,
+      "Ossian Verdejo": 24,
+      "Rozas 1er Cru": 24,
+      "Clio": 30,
+      "La Bota Fino": 18
+    },
+    "totalRevenue": 34200,
+    "totalOrders": 22
+  },
+  {
+    "month": "Nov 2025",
+    "wines": {
+      "Finca Dofí": 36,
+      "Viña Ardanza": 60,
+      "Do Ferreiro": 18,
+      "Pétalos": 60,
+      "Gramona III": 42,
+      "Castillo Ygay": 24,
+      "Ossian Verdejo": 18,
+      "Rozas 1er Cru": 30,
+      "Clio": 36,
+      "La Bota Fino": 24
+    },
+    "totalRevenue": 42800,
+    "totalOrders": 28
+  },
+  {
+    "month": "Dec 2025",
+    "wines": {
+      "Finca Dofí": 42,
+      "Viña Ardanza": 72,
+      "Do Ferreiro": 24,
+      "Pétalos": 66,
+      "Gramona III": 60,
+      "Castillo Ygay": 36,
+      "Ossian Verdejo": 24,
+      "Rozas 1er Cru": 36,
+      "Clio": 42,
+      "La Bota Fino": 30
+    },
+    "totalRevenue": 56400,
+    "totalOrders": 35
+  },
+  {
+    "month": "Jan 2026",
+    "wines": {
+      "Finca Dofí": 30,
+      "Viña Ardanza": 48,
+      "Do Ferreiro": 30,
+      "Pétalos": 48,
+      "Gramona III": 30,
+      "Castillo Ygay": 18,
+      "Ossian Verdejo": 30,
+      "Rozas 1er Cru": 24,
+      "Clio": 24,
+      "La Bota Fino": 18
+    },
+    "totalRevenue": 32600,
+    "totalOrders": 21
+  },
+  {
+    "month": "Feb 2026",
+    "wines": {
+      "Finca Dofí": 36,
+      "Viña Ardanza": 54,
+      "Do Ferreiro": 36,
+      "Pétalos": 54,
+      "Gramona III": 36,
+      "Castillo Ygay": 24,
+      "Ossian Verdejo": 36,
+      "Rozas 1er Cru": 30,
+      "Clio": 30,
+      "La Bota Fino": 24
+    },
+    "totalRevenue": 38200,
+    "totalOrders": 25
+  }
+]

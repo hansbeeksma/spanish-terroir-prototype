@@ -1,0 +1,57 @@
+[
+  {
+    "id": "rfm-champions",
+    "name": "Champions",
+    "description": "Hoge recency, frequentie en waarde. Beste klanten.",
+    "rfm": { "recency": 5, "frequency": 5, "monetary": 5 },
+    "count": 8,
+    "avgOrderValue": 1250,
+    "retentionRate": 95,
+    "action": "VIP-programma, early access, exclusieve proeverijen",
+    "color": "#7C2D36"
+  },
+  {
+    "id": "rfm-loyal",
+    "name": "Loyale Klanten",
+    "description": "Frequent en waardevol, maar niet altijd recent.",
+    "rfm": { "recency": 3, "frequency": 5, "monetary": 4 },
+    "count": 15,
+    "avgOrderValue": 850,
+    "retentionRate": 82,
+    "action": "Tenure-based rewards, cross-sell premium wijnen",
+    "color": "#D4A84B"
+  },
+  {
+    "id": "rfm-potential",
+    "name": "Potentiele Loyalisten",
+    "description": "Recent actief met groeiende frequentie.",
+    "rfm": { "recency": 5, "frequency": 2, "monetary": 2 },
+    "count": 22,
+    "avgOrderValue": 420,
+    "retentionRate": 65,
+    "action": "Onboarding flow versterken, quiz aanbieden, membership",
+    "color": "#8BA889"
+  },
+  {
+    "id": "rfm-at-risk",
+    "name": "Risico",
+    "description": "Waren actief maar activiteit neemt af.",
+    "rfm": { "recency": 2, "frequency": 3, "monetary": 3 },
+    "count": 12,
+    "avgOrderValue": 580,
+    "retentionRate": 45,
+    "action": "Win-back campagne, persoonlijk contact, korting",
+    "color": "#C7522A"
+  },
+  {
+    "id": "rfm-dormant",
+    "name": "Slapend",
+    "description": "Lang niet besteld, voorheen actief.",
+    "rfm": { "recency": 1, "frequency": 1, "monetary": 2 },
+    "count": 18,
+    "avgOrderValue": 350,
+    "retentionRate": 15,
+    "action": "Re-activatie serie, \"we missen je\" campagne",
+    "color": "#6B6B6B"
+  }
+]

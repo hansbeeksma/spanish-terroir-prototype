@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ORD-2026-001",
+    "date": "2026-01-15",
+    "customerId": "prof-001",
+    "items": [
+      { "wineSlug": "alvaro-palacios-finca-dofi", "wineName": "Finca Dofí", "quantity": 12, "pricePerBottle": 59.00 },
+      { "wineSlug": "comando-g-rozas-1er-cru", "wineName": "Rozas 1er Cru", "quantity": 6, "pricePerBottle": 40.00 },
+      { "wineSlug": "do-ferreiro-albarino", "wineName": "Do Ferreiro Albariño", "quantity": 12, "pricePerBottle": 16.67 }
+    ],
+    "total": 1148.04,
+    "status": "delivered"
+  },
+  {
+    "id": "ORD-2026-002",
+    "date": "2026-01-28",
+    "customerId": "prof-002",
+    "items": [
+      { "wineSlug": "descendientes-de-j-palacios-petalos", "wineName": "Pétalos del Bierzo", "quantity": 12, "pricePerBottle": 15.00 },
+      { "wineSlug": "ossian-verdejo-viñas-viejas", "wineName": "Ossian Verdejo", "quantity": 6, "pricePerBottle": 21.00 },
+      { "wineSlug": "cava-gramona-iii-lustros-gran-reserva", "wineName": "Gramona III Lustros", "quantity": 6, "pricePerBottle": 32.50 }
+    ],
+    "total": 501.00,
+    "status": "delivered"
+  },
+  {
+    "id": "ORD-2026-003",
+    "date": "2026-02-05",
+    "customerId": "prof-003",
+    "items": [
+      { "wineSlug": "marques-de-murrieta-castillo-ygay-gran-reserva", "wineName": "Castillo Ygay Gran Reserva", "quantity": 6, "pricePerBottle": 120.00 },
+      { "wineSlug": "cava-gramona-iii-lustros-gran-reserva", "wineName": "Gramona III Lustros", "quantity": 12, "pricePerBottle": 31.00 },
+      { "wineSlug": "la-rioja-alta-vina-ardanza-reserva", "wineName": "Viña Ardanza Reserva", "quantity": 12, "pricePerBottle": 25.67 },
+      { "wineSlug": "equipo-navazos-la-bota-fino", "wineName": "La Bota de Fino", "quantity": 6, "pricePerBottle": 26.67 }
+    ],
+    "total": 1560.06,
+    "status": "shipped"
+  }
+]

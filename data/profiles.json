@@ -1,0 +1,89 @@
+[
+  {
+    "id": "prof-001",
+    "email": "sophie@dekas.nl",
+    "restaurantName": "De Kas",
+    "type": "fine-dining",
+    "cuisine": ["Nederlands", "Fusion"],
+    "wineListSize": 45,
+    "preferences": {
+      "styles": ["medium", "full"],
+      "types": ["red", "white"],
+      "priceRange": "premium",
+      "adventurousness": 8,
+      "guiaPeninMinimum": 92
+    },
+    "matchScores": {
+      "la-rioja-alta-vina-ardanza-reserva": 94,
+      "alvaro-palacios-finca-dofi": 97,
+      "do-ferreiro-albarino": 88,
+      "marques-de-murrieta-castillo-ygay-gran-reserva": 92,
+      "comando-g-rozas-1er-cru": 95,
+      "raul-perez-sketch-albarino": 91,
+      "ossian-verdejo-viñas-viejas": 86,
+      "cava-gramona-iii-lustros-gran-reserva": 83,
+      "bodegas-muga-prado-enea-gran-reserva": 93,
+      "descendientes-de-j-palacios-petalos": 89,
+      "bodegas-el-nido-clio": 90,
+      "equipo-navazos-la-bota-fino": 78
+    }
+  },
+  {
+    "id": "prof-002",
+    "email": "marco@bistrot.nl",
+    "restaurantName": "Bistrot Neuf",
+    "type": "casual",
+    "cuisine": ["Frans", "Mediterraans"],
+    "wineListSize": 25,
+    "preferences": {
+      "styles": ["light", "medium"],
+      "types": ["red", "white", "rose"],
+      "priceRange": "mid",
+      "adventurousness": 5,
+      "guiaPeninMinimum": 90
+    },
+    "matchScores": {
+      "la-rioja-alta-vina-ardanza-reserva": 85,
+      "alvaro-palacios-finca-dofi": 72,
+      "do-ferreiro-albarino": 93,
+      "marques-de-murrieta-castillo-ygay-gran-reserva": 65,
+      "comando-g-rozas-1er-cru": 88,
+      "raul-perez-sketch-albarino": 80,
+      "ossian-verdejo-viñas-viejas": 91,
+      "cava-gramona-iii-lustros-gran-reserva": 87,
+      "bodegas-muga-prado-enea-gran-reserva": 78,
+      "descendientes-de-j-palacios-petalos": 94,
+      "bodegas-el-nido-clio": 70,
+      "equipo-navazos-la-bota-fino": 82
+    }
+  },
+  {
+    "id": "prof-003",
+    "email": "elena@grandhotel.nl",
+    "restaurantName": "Grand Hotel Restaurant",
+    "type": "hotel",
+    "cuisine": ["Frans", "Italiaans", "Nederlands"],
+    "wineListSize": 80,
+    "preferences": {
+      "styles": ["light", "medium", "full"],
+      "types": ["red", "white", "sparkling"],
+      "priceRange": "premium",
+      "adventurousness": 6,
+      "guiaPeninMinimum": 90
+    },
+    "matchScores": {
+      "la-rioja-alta-vina-ardanza-reserva": 92,
+      "alvaro-palacios-finca-dofi": 88,
+      "do-ferreiro-albarino": 90,
+      "marques-de-murrieta-castillo-ygay-gran-reserva": 95,
+      "comando-g-rozas-1er-cru": 86,
+      "raul-perez-sketch-albarino": 84,
+      "ossian-verdejo-viñas-viejas": 89,
+      "cava-gramona-iii-lustros-gran-reserva": 96,
+      "bodegas-muga-prado-enea-gran-reserva": 93,
+      "descendientes-de-j-palacios-petalos": 87,
+      "bodegas-el-nido-clio": 85,
+      "equipo-navazos-la-bota-fino": 91
+    }
+  }
+]
