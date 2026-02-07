@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Wine } from '@/lib/types'
 import { GuiaPeninBadge } from '@/components/product/GuiaPeninBadge'
 
@@ -60,7 +61,16 @@ export function WijnlijstPanel({ wines, onAddToOrder }: WijnlijstPanelProps) {
                     onClick={() => onAddToOrder?.(wine)}
                     className="w-full text-left group px-4 py-3 -mx-4 rounded-lg hover:bg-cream-50/5 transition-colors duration-200"
                   >
-                    <div className="flex items-start justify-between gap-4">
+                    <div className="flex items-start gap-4">
+                      <div className="relative w-10 h-14 flex-shrink-0 rounded overflow-hidden bg-cream-50/5">
+                        <Image
+                          src={wine.image}
+                          alt={wine.name}
+                          fill
+                          className="object-contain"
+                          sizes="40px"
+                        />
+                      </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-1">
                           <span className="font-heading text-sm sm:text-base text-cream-50 group-hover:text-gold-400 transition-colors duration-200">
