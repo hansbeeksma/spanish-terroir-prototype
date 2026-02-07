@@ -50,7 +50,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Rood Vlees", "Wild", "Kaas"],
     "story": "Álvaro Palacios bracht de Priorat terug op de wereldkaart. Finca Dofí komt van oude Garnacha-stokken op steile leisteenhellingen, handgeoogst en verwerkt met minimale interventie.",
-    "image": "/wines/finca-dofi.jpg"
+    "image": "/wines/finca-dofi.png"
   },
   {
     "slug": "do-ferreiro-albarino",
@@ -76,7 +76,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Vis & Zeevruchten", "Vegetarisch", "Kaas"],
     "story": "Gerardo Méndez bewerkt al vijf generaties lang de Albariño-wijngaarden nabij de Atlantische kust. De zilte lucht en granieten bodem geven deze wijn zijn kenmerkende mineraliteit.",
-    "image": "/wines/do-ferreiro.jpg"
+    "image": "/wines/do-ferreiro.png"
   },
   {
     "slug": "marques-de-murrieta-castillo-ygay-gran-reserva",
@@ -103,7 +103,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Rood Vlees", "Wild", "Kaas"],
     "story": "Het iconische Castillo Ygay is een monument van de Rioja. Deze Gran Reserva Especial wordt alleen gemaakt in uitzonderlijke jaren en rijpt minimaal 24 maanden op Frans eiken.",
-    "image": "/wines/castillo-ygay.jpg"
+    "image": "/wines/castillo-ygay.png"
   },
   {
     "slug": "bodegas-muga-prado-enea-gran-reserva",
@@ -130,7 +130,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Rood Vlees", "Wild", "Kaas"],
     "story": "Bodegas Muga is een van de weinige bodega's die uitsluitend eiken vaten gebruikt voor alle fasen van de vinificatie. De Prado Enea is hun kroonjuweel.",
-    "image": "/wines/prado-enea.jpg"
+    "image": "/wines/prado-enea.png"
   },
   {
     "slug": "raul-perez-sketch-albarino",
@@ -156,7 +156,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Vis & Zeevruchten", "Vegetarisch", "Pasta & Rijst"],
     "story": "Raúl Pérez is een van Spanje's meest avant-garde wijnmakers. Zijn Sketch Albariño bewijst dat witte wijn net zo complex en ageworthy kan zijn als de beste rode.",
-    "image": "/wines/sketch-albarino.jpg"
+    "image": "/wines/sketch-albarino.png"
   },
   {
     "slug": "descendientes-de-j-palacios-petalos",
@@ -182,7 +182,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Vis & Zeevruchten", "Wit Vlees", "Pasta & Rijst"],
     "story": "Ricardo Pérez Palacios herontdekte de vergeten Mencía-druif in het bergachtige Bierzo. Pétalos is de instapwijn die de elegantie van deze druif perfect demonstreert.",
-    "image": "/wines/petalos.jpg"
+    "image": "/wines/petalos.png"
   },
   {
     "slug": "cava-gramona-iii-lustros-gran-reserva",
@@ -208,7 +208,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Vis & Zeevruchten", "Vegetarisch", "Dessert"],
     "story": "Gramona maakt al meer dan een eeuw Cava op ambachtelijke wijze. De III Lustros rijpt minimaal 60 maanden op fles, wat resulteert in een mousserende wijn die kan wedijveren met de beste Champagnes.",
-    "image": "/wines/gramona-iii.jpg"
+    "image": "/wines/gramona-iii.png"
   },
   {
     "slug": "ossian-verdejo-viñas-viejas",
@@ -234,7 +234,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Vis & Zeevruchten", "Vegetarisch", "Wit Vlees"],
     "story": "Ossian werkt met pre-phylloxera Verdejo-stokken van meer dan 200 jaar oud. Deze ongegrifte wijnstokken produceren intense, geconcentreerde wijnen met ongekende diepte.",
-    "image": "/wines/ossian-verdejo.jpg"
+    "image": "/wines/ossian-verdejo.png"
   },
   {
     "slug": "bodegas-el-nido-clio",
@@ -260,7 +260,7 @@
     "sweetnessScore": 2,
     "foodPairings": ["Rood Vlees", "Wild", "Kaas"],
     "story": "Jumilla's droge, warme klimaat is ideaal voor de Monastrell-druif. Bodegas El Nido combineert dit oerdruif met een vleugje Cabernet voor een wijn die kracht en elegantie verenigt.",
-    "image": "/wines/clio.jpg"
+    "image": "/wines/clio.png"
   },
   {
     "slug": "equipo-navazos-la-bota-fino",
@@ -286,7 +286,7 @@
     "sweetnessScore": 1,
     "foodPairings": ["Vis & Zeevruchten", "Kaas", "Vegetarisch"],
     "story": "Equipo Navazos selecteert de allerbeste vaten Sherry uit de bodega's van Jerez. Elke La Bota is een unieke botteling, genummerd en gelimiteerd.",
-    "image": "/wines/la-bota-fino.jpg"
+    "image": "/wines/la-bota-fino.png"
   },
   {
     "slug": "comando-g-rozas-1er-cru",
@@ -312,6 +312,6 @@
     "sweetnessScore": 1,
     "foodPairings": ["Wit Vlees", "Wild", "Vegetarisch"],
     "story": "Comando G is het project van drie jonge wijnmakers die de Garnacha uit de Sierra de Gredos naar Bourgondisch niveau tillen. Minimale interventie, maximale expressie van terroir.",
-    "image": "/wines/rozas-1er-cru.jpg"
+    "image": "/wines/rozas-1er-cru.webp"
   }
 ]
