@@ -3,26 +3,44 @@
 import { useState } from 'react'
 import { HorecaLogin } from '@/components/horeca/HorecaLogin'
 import { HorecaDashboard } from '@/components/horeca/HorecaDashboard'
-import type { Wine, Order } from '@/lib/types'
+import type { Wine, Order, CustomerProfile, StaffMember } from '@/lib/types'
 import winesData from '@/data/wines.json'
 import ordersData from '@/data/orders.json'
+import profilesData from '@/data/profiles.json'
+import staffData from '@/data/staff.json'
 
 const wines = winesData as Wine[]
 const orders = ordersData as Order[]
+const profiles = profilesData as CustomerProfile[]
+const staff = staffData as StaffMember[]
+
+interface HorecaSession {
+  staff: StaffMember
+  profile: CustomerProfile
+}
 
 export default function HorecaPage() {
-  const [identity, setIdentity] = useState<string | null>(null)
+  const [session, setSession] = useState<HorecaSession | null>(null)
 
-  if (!identity) {
-    return <HorecaLogin onAuthenticated={setIdentity} />
+  if (!session) {
+    return (
+      <HorecaLogin
+        profiles={profiles}
+        staffMembers={staff}
+        onAuthenticated={(s, p) => setSession({ staff: s, profile: p })}
+      />
+    )
   }
+
+  const profileOrders = orders.filter((o) => o.customerId === session.profile.id)
 
   return (
     <HorecaDashboard
-      identity={identity}
+      staff={session.staff}
+      profile={session.profile}
       wines={wines}
-      orders={orders}
-      onLogout={() => setIdentity(null)}
+      orders={profileOrders}
+      onLogout={() => setSession(null)}
     />
   )
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "staff-001",
+    "profileId": "prof-001",
+    "name": "Sophie van den Berg",
+    "role": "sommelier",
+    "pin": "1234"
+  },
+  {
+    "id": "staff-002",
+    "profileId": "prof-001",
+    "name": "Thomas Bakker",
+    "role": "chef",
+    "pin": "5678"
+  },
+  {
+    "id": "staff-003",
+    "profileId": "prof-002",
+    "name": "Marco de Vries",
+    "role": "eigenaar",
+    "pin": "1111"
+  },
+  {
+    "id": "staff-004",
+    "profileId": "prof-002",
+    "name": "Lisa Jansen",
+    "role": "manager",
+    "pin": "2222"
+  },
+  {
+    "id": "staff-005",
+    "profileId": "prof-003",
+    "name": "Elena Petrova",
+    "role": "F&B manager",
+    "pin": "3333"
+  },
+  {
+    "id": "staff-006",
+    "profileId": "prof-003",
+    "name": "Daan Willems",
+    "role": "sommelier",
+    "pin": "4444"
+  }
+]

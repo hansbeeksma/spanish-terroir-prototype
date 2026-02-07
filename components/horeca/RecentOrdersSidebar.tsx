@@ -4,6 +4,7 @@ import { GuiaPeninBadge } from '@/components/product/GuiaPeninBadge'
 interface RecentOrdersSidebarProps {
   orders: Order[]
   recommendedWines: Wine[]
+  matchScores?: Record<string, number>
   onReorder?: (order: Order) => void
 }
 
@@ -14,7 +15,7 @@ const statusLabels: Record<string, { label: string; color: string }> = {
   delivered: { label: 'Geleverd', color: 'text-sage-400' },
 }
 
-export function RecentOrdersSidebar({ orders, recommendedWines, onReorder }: RecentOrdersSidebarProps) {
+export function RecentOrdersSidebar({ orders, recommendedWines, matchScores, onReorder }: RecentOrdersSidebarProps) {
   return (
     <div className="space-y-6">
       {/* Recent Orders */}
@@ -26,6 +27,11 @@ export function RecentOrdersSidebar({ orders, recommendedWines, onReorder }: Rec
         </div>
 
         <div className="p-4 space-y-3">
+          {orders.length === 0 && (
+            <p className="text-xs text-cream-200/40 font-body text-center py-4">
+              Nog geen bestellingen
+            </p>
+          )}
           {orders.slice(0, 5).map((order) => {
             const status = statusLabels[order.status]
             return (
@@ -90,25 +96,35 @@ export function RecentOrdersSidebar({ orders, recommendedWines, onReorder }: Rec
         </div>
 
         <div className="p-4 space-y-3">
-          {recommendedWines.slice(0, 5).map((wine) => (
-            <div
-              key={wine.slug}
-              className="flex items-start gap-3 bg-cream-50/3 rounded-lg p-3 border border-cream-200/5"
-            >
-              <GuiaPeninBadge score={wine.guiaPenin} size="sm" />
-              <div className="flex-1 min-w-0">
-                <p className="text-sm text-cream-50 font-heading truncate">
-                  {wine.name}
-                </p>
-                <p className="text-xs text-cream-200/60 font-body">
-                  {wine.winemaker} &middot; {wine.region}
-                </p>
-                <p className="text-xs font-bold text-gold-400 mt-1">
-                  &euro;{(wine.price.case6 / 6).toFixed(2)}/fles
-                </p>
+          {recommendedWines.slice(0, 5).map((wine) => {
+            const score = matchScores?.[wine.slug]
+            return (
+              <div
+                key={wine.slug}
+                className="flex items-start gap-3 bg-cream-50/3 rounded-lg p-3 border border-cream-200/5"
+              >
+                <GuiaPeninBadge score={wine.guiaPenin} size="sm" />
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2">
+                    <p className="text-sm text-cream-50 font-heading truncate">
+                      {wine.name}
+                    </p>
+                    {score != null && (
+                      <span className="shrink-0 text-[10px] font-bold text-gold-400 bg-gold-400/10 px-1.5 py-0.5 rounded-full">
+                        {score}% match
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-xs text-cream-200/60 font-body">
+                    {wine.winemaker} &middot; {wine.region}
+                  </p>
+                  <p className="text-xs font-bold text-gold-400 mt-1">
+                    &euro;{(wine.price.case6 / 6).toFixed(2)}/fles
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
     </div>

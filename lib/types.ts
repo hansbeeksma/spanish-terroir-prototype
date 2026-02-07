@@ -96,6 +96,14 @@ export interface RfmSegment {
   color: string
 }
 
+export interface StaffMember {
+  id: string
+  profileId: string
+  name: string
+  role: string
+  pin: string
+}
+
 export type WineType = Wine['type']
 export type WineStyle = Wine['style']
 export type RestaurantType = CustomerProfile['type']

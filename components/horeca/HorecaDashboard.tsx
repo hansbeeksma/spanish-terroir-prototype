@@ -1,23 +1,28 @@
 'use client'
 
-import type { Wine, Order } from '@/lib/types'
+import type { Wine, Order, CustomerProfile, StaffMember } from '@/lib/types'
 import { WijnlijstPanel } from './WijnlijstPanel'
 import { RecentOrdersSidebar } from './RecentOrdersSidebar'
 
 interface HorecaDashboardProps {
-  identity: string
+  staff: StaffMember
+  profile: CustomerProfile
   wines: Wine[]
   orders: Order[]
   onLogout: () => void
 }
 
-export function HorecaDashboard({ identity, wines, orders, onLogout }: HorecaDashboardProps) {
+export function HorecaDashboard({ staff, profile, wines, orders, onLogout }: HorecaDashboardProps) {
   const orderedSlugs = new Set(
     orders.flatMap((o) => o.items.map((i) => i.wineSlug))
   )
   const recommendedWines = [...wines]
     .filter((w) => !orderedSlugs.has(w.slug))
-    .sort((a, b) => b.guiaPenin - a.guiaPenin)
+    .sort((a, b) => {
+      const scoreA = profile.matchScores[a.slug] ?? 0
+      const scoreB = profile.matchScores[b.slug] ?? 0
+      return scoreB - scoreA
+    })
     .slice(0, 5)
 
   return (
@@ -29,10 +34,10 @@ export function HorecaDashboard({ identity, wines, orders, onLogout }: HorecaDas
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <div>
             <h1 className="font-heading text-lg sm:text-xl text-cream-50">
-              Welkom, <span className="text-gold-400">{identity}</span>
+              Welkom, <span className="text-gold-400">{staff.name}</span>
             </h1>
             <p className="text-xs text-cream-200/50 font-body">
-              Horeca Portaal &middot; Spanish Terroir
+              {staff.role.charAt(0).toUpperCase() + staff.role.slice(1)} bij {profile.restaurantName} &middot; Spanish Terroir
             </p>
           </div>
           <button
@@ -56,6 +61,7 @@ export function HorecaDashboard({ identity, wines, orders, onLogout }: HorecaDas
             <RecentOrdersSidebar
               orders={orders}
               recommendedWines={recommendedWines}
+              matchScores={profile.matchScores}
             />
           </div>
 
