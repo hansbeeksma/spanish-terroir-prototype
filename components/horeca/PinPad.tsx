@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import type { StaffMember } from '@/lib/types'
 
 interface PinPadProps {
@@ -40,6 +40,18 @@ export function PinPad({ restaurantName, staffMembers, onSuccess, onBack }: PinP
     setError(false)
     setDigits((prev) => prev.slice(0, -1))
   }, [])
+
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key >= '0' && e.key <= '9') {
+        handleDigit(e.key)
+      } else if (e.key === 'Backspace') {
+        handleBackspace()
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [handleDigit, handleBackspace])
 
   const keys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'back', '0', 'enter']
 
